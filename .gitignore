@@ -1,4 +1,7 @@
 # Built application files
+*.apk
+*.ap_
+*.aab
 build/
 
 # Files for the ART/Dalvik VM
@@ -36,5 +39,11 @@ captures/
 # Google Services (e.g. APIs or Firebase)
 google-services.json
 
+# lint
+lint/intermediates/
+lint/generated/
+lint/outputs/
+lint/tmp/
+lint/reports/
 # Version control
 vcs.xml
